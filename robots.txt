@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /crawl/
+Disallow: /docs/
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /downloads/
+Disallow: /images/

@@ -11,40 +11,28 @@
     <link type="text/css" rel="stylesheet" href="css/styles.css">
     <meta name="keywords" content="Bürgergeld, Rentenrecht, Sozialrecht, Eingliederungshilfe, Arbeitslosengeld, Hartz, Unfallversicherung, Berufsgenossenschaft, Verletzengeld, Krankengeld, Erwerbsminderungsrente, Wohngeld, Kinderzuschlag">
     <meta name="description" content="Rechtsanwalt und Kanzlei für Sozialrecht und Sozialversicherungsrecht in Freiburg im Breisgau und Südbaden.">
-    <meta name="google-site-verification" content="tzWSpyTZey4ygDf4eY-PRgjcQKHIjUV-QppVQ-ddVQw" />
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!--cookie Consent-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-    <script>
-    window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#321013",
-          "text": "#eeeeee"
-        },
-        "button": {
-          "background": "#eeeeee"
-        }
-      },
-      "theme": "classic",
-      "position": "bottom",
-      "content": {
-        "message": "Diese Website verwendet Cookies – nähere Informationen dazu finden Sie in der ",
-        "dismiss": "Verstanden!",
-        "link": "Datenschutzerklärung",
-        "href": "www.ra-krumm.de/impressum.html"
-      }
-    })});
-    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+
 
   </head>
 
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NLX9V98X8E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NLX9V98X8E');
+</script>
+
   <body>
+    
     <!--Import jQuery before materialize.js-->
     <!-- Navigation -->
     <nav class = "red accent-4">
@@ -206,8 +194,10 @@
                  <h5 class="white-text">kleingedrucktes</h5>
                  <p><a class="grey-text text-lighten-4"href="impressum.html">Impressum / Datenschutz.</a></p>
                  <ul>
-                   <li><a class="grey-text text-lighten-3" href="http://www.amtsgericht-freiburg.de/pb/,Lde/1155787">Beratungshilfe</a></li>
+                   <li><a class="grey-text text-lighten-3" href="http://www.amtsgericht-freiburg.de/pb/,Lde/1155787">Beratungshilfe beim Amtsgericht</a></li>
+                   <li><a class="grey-text text-lighten-3" href="https://service.justiz.de/beratungshilfe">Beratungshilfe Online beantragen</a></li>
                    <li><a class="grey-text text-lighten-3" href="http://www.amtsgericht-freiburg.de/pb/,Lde/1155783">Prozesskostenhilfe</a></li>
+                   
                  </ul>
                </div>
                <div class="col l4 offset-l2 s12">
@@ -222,7 +212,7 @@
            </div>
            <div class="footer-copyright">
              <div class="container">
-             © 2019 Andreas Krumm; Bild: rawpixel.com/Shutterstock.com, Karte: Google
+             © 2024 Andreas Krumm; Bild: rawpixel.com/Shutterstock.com, Karte: Google
              <a class="grey-text text-lighten-4 right" href="#!"></a>
              </div>
            </div>
@@ -230,5 +220,6 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/init.js"></script>
+    <script type="module" src="js/cookieconsent-config.js"></script>
   </body>
 </html>
