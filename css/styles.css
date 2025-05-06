@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #d50000;
+  font-weight: 500;
+}
+
+.rakrumm-slogan {
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+.rakrumm-sub-slogan {
+  font-size: 21px;
+  padding-top: 24px;
+}
+
+.mdl-layout-title {
+  display: block;
+  position: relative;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  box-sizing: border-box; }
+
+.mdl-layout-spacer {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.rakrumm-intro-section {
+  position: relative;
+  height: 500px;
+  width: auto;
+  background-color: #f3f3f3; /*f3f3f3*/
+  /*background url Path muss angepasst werden*/
+  background: url('../img/shutterstock_374588935halfsizeSepia.jpg') center 30% no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.rakrumm-google-maps {
+      background-color:white;
+      position: relative;
+      padding-bottom: 75%; // This is the aspect ratio
+      height: 0;
+      overflow: hidden;
+  }
+
+.rakrumm-google-maps iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+  }
+
+.carousel {
+    height: 200px !important;
+}
+
+.page-footer {
+    padding-top: 20px;
+    background-color: #666666;
+}
+
+.carousel.carousel-slider .carousel-fixed-item.with-indicators {
+  bottom: 20px !important;
+}
